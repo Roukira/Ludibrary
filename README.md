@@ -6,7 +6,7 @@ Please keep in mind this is still an early version of what I'm aiming for.
 
 Screenshots of the current version :
 
-![Main Menu listing all games](Ludibrary/screenshot1.png?raw=true)
-![Search for games](Ludibrary/screenshot1.png?raw=true)
+![Main Menu listing all games](https://raw.githubusercontent.com/Roukira/Ludibrary/master/screenshot1.png?raw=true)
+![Search for games](https://raw.githubusercontent.com/Roukira/Ludibrary/master/screenshot2.png?raw=true)
 
 want to give it a try ? [Download.](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.1.zip)
