@@ -3,8 +3,7 @@
 
 @import "{{ site.theme }}";
 #sidebar {
-    position:absolute;
-    top:0; bottom:0; left:0;
-    width:350px;
-    background:#000;
+    position:fixed;
+    top:100px; right:5px;
+    background:transparent;
 }
