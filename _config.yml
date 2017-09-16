@@ -1,5 +1,4 @@
 theme: jekyll-theme-slate
-description: "Ludibrary is a (mostly hobby) **Windows** software project. It will allow users to list their games (on any platform)
-and even launch them if they set them up to. It is using [thegamesdb database](http://www.thegamesdb.net) API to search for games and corresponding informations and image.
-
+description: "Ludibrary is a (mostly hobby) windows software project. It will allow users to list their games (on any platform)
+and even launch them if they set them up to. It is using thegamesdb.net database API to search for games and corresponding informations and image.
 Please keep in mind this is still an early version of what I am aiming for."
