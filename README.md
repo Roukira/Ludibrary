@@ -22,6 +22,8 @@ I've added a play button instead of double-clicking the game which I think is be
 - The only setting available right now is smooth scrolling, which basically allows to scroll pixel per pixel.
 - The app .exe now has an icon !
 
+[Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.2.zip)
+
 ________________________________________________________________________________________________________________________________________
 
 # Ludibrary v0.1
