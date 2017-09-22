@@ -20,7 +20,8 @@ Changes :
 
 That's it for now.
 
-[Downloaded this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.3.zip)
+[Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.3.zip)
+
 ________________________________________________________________________________________________________________________________________
 
 # Ludibrary v0.2
