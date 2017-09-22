@@ -13,6 +13,7 @@ You can also add any type of game(.exe or anything else) : this means that you c
 
 Changes :
 - Added a way to manually add an emulator. (You can not delete them yet without an external program, sorry !)
+Note that most emulators work (most famous ones) but I didn't make it work for any emulator yet, I'll add a list of known supported emulators when I get to do it,and also provide myself the emulators (optional ofcourse) on next version.
 - You can now run an emulated rom by editing the game's path and adding your emulator.
 - Added an emulator viewer (it's not looking very good but I'll work on that thing later).
 - Fixed a crash happening when pressing the delete button without selection.
