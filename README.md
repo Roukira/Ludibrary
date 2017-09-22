@@ -1,7 +1,26 @@
 Want to give it a try ?
 Download :
-- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.2.zip)
+- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.3.zip)
 
+________________________________________________________________________________________________________________________________________
+
+# Ludibrary v0.3 : Play Update
+
+Hello !
+
+Finally finished working on this update. You can now add most emulators and link them to a platform. 
+You can also add any type of game(.exe or anything else) : this means that you can run your emulated games directly !
+
+Changes :
+- Added a way to manually add an emulator. (You can not delete them yet without an external program, sorry !)
+- You can now run an emulated rom by editing the game's path and adding your emulator.
+- Added an emulator viewer (it's not looking very good but I'll work on that thing later).
+- Fixed a crash happening when pressing the delete button without selection.
+- New setting is up active by default : when you delete all the games of a platform, the platform is deleted aswell (this also means that an emulator for that platform won't be valid anymore, even if you add back the platform, you'll have to add again the emulator without deleting it, sorry another thing to improve :(
+
+That's it for now.
+
+[Downloaded this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.3.zip)
 ________________________________________________________________________________________________________________________________________
 
 # Ludibrary v0.2
