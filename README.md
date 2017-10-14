@@ -1,6 +1,39 @@
 Want to give it a try ?
 Download :
-- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.3.zip)
+- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.4.zip)
+
+________________________________________________________________________________________________________________________________________
+
+# Ludibrary v0.4 : Small Emulator Update
+
+Hello !
+
+I've been working on an emulator update for quite some time and it's now ready !
+Fixed some major bugs, and added supported emulators, which when put into the emulators folder will automatically be loaded for corresponding platforms.
+This update is a small one for emulators, I plan to add much more into it but later, when I finish other things.
+
+Changes :
+- Fixed a bug with steam url shortcuts on desktop not working for game .exe location.
+- Supported emulators feature : It will allow you when you add the emulator to directly play games without configuring each game emulator when the platform is supported.
+List of supported emulators as of now (it will grow later !) :
+	- Nestopia
+	- SNES9X
+	- Project 64
+	- Dolphin
+	- Cemu
+	- Visual Boy Advance
+	- Desmume
+	- Citra
+	- ePSXe
+	- PCSX2
+- You can now edit your emulator settings, changing emulator path, and choose as default for each platform.
+- Fixed a bug that made Ludibrary crash when trying to use detected games feature.
+- Removed some weird and useless texts.
+- Added a setting for emulators directory.
+
+And that's it !
+
+[Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.4.zip)
 
 ________________________________________________________________________________________________________________________________________
 
