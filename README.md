@@ -1,6 +1,25 @@
 Want to give it a try ?
 Download :
-- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.4.zip)
+- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.5.zip)
+
+
+________________________________________________________________________________________________________________________________________
+
+# Ludibrary v0.5 : Notification Update
+
+Hello !
+
+Small update there fixing some bugs and adding a little nice feature : Notifications.
+It will notify you inside the software when you add a game, platform, or when you run a game.
+
+Changes :
+- Fixed a lot of bugs on emulators.
+- Fixed a crash happening at some games added.
+- Notifications.
+
+And that's it !
+
+[Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.5.zip)
 
 ________________________________________________________________________________________________________________________________________
 
