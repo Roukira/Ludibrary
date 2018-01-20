@@ -1,7 +1,30 @@
 Want to give it a try ?
 Download :
-- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.5.zip)
+- Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.6.0.zip)
 
+
+________________________________________________________________________________________________________________________________________
+
+# Ludibrary v0.6.0 : Notification Update
+
+Hello !
+
+Big update with small update log, it took quite some time but it finally works!
+
+Changes :
+- Ludibrary can now run all PC games, including steam and Launcher-based games.
+The only issue could be games opened through specific emulators which I will work on later on.
+
+- Game timer : 
+Ludibrary finally features a fully functional game timer.
+It will count time played and update in real-time. It was pretty hard to make it work, and even harder for launcher based games which had child processes to deal with but now it works !
+
+- Added more detail when a game search has no result.
+- Fixed "Cancel" button on Add Button.
+
+And that's it !
+
+[Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.6.0.zip)
 
 ________________________________________________________________________________________________________________________________________
 
