@@ -5,7 +5,7 @@ Download :
 
 ________________________________________________________________________________________________________________________________________
 
-# Ludibrary v0.6.0 : Notification Update
+# Ludibrary v0.6.0 : More games compatibility and Game Timer Update
 
 Hello !
 
