@@ -2,19 +2,15 @@
 ---
 
 @import "{{ site.theme }}";
-#sidebar {
-    position:absolute;
-    top:400px; right:15px;
-    background:transparent;
+#aside {
+    float: right;
+    margin: 0 1.5%;
+    width: 30%;
 }
 
-section {
+#content {
   float: left;
   margin: 0 1.5%;
   width: 63%;
 }
-aside {
-  float: right;
-  margin: 0 1.5%;
-  width: 30%;
-}
+
