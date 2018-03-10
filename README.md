@@ -12,11 +12,11 @@ It's been a month since the last update, and I'm bringing a lot of stuff ! This 
 
 General Changes :
 
-	- Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child 			processes, which was an issue before for games with launchers which would stop the timer.
+	- Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
 	
 	- Improved UI :
 		- Introduced a status bar on bottom, which will only be visible when loading a game for now.
-		- New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted 			on settings.
+		- New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted on settings.
 		- Replaced the ugly side info by a blue I button which when hovered shows game info inside the window without moving games.
 
 New features : 
