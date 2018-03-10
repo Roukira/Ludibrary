@@ -11,35 +11,33 @@ Hello !
 It's been a month since the last update, and I'm bringing a lot of stuff ! This update contains some stuff I also worked on before but wasn't ready.
 
 ## General Changes :
-	* Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
-	* Improved UI :
-		* Introduced a status bar on bottom, which will only be visible when loading a game for now.
-		* New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted on settings.
-		* Replaced the ugly side info by a blue I button which when hovered shows game info inside the window without moving games.
+* Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
+* Improved UI :
+	* Introduced a status bar on bottom, which will only be visible when loading a game for now.
+	* New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted on settings.
+	* Replaced the ugly side info by a blue I button which when hovered shows game info inside the window without moving games.
 
 ## New features : 
+* User Stats System :
+	* Created a tab that shows the user stats in real time.
+	* Contains general stats and specific stats per platform, emulator and software.
 
-	- User Stats System :
-		- Created a tab that shows the user stats in real time.
-		- Contains general stats and specific stats per platform, emulator and software.
+* Game State :
+	* Each game now has a state that describes how it is used.
+	* Possible values : Completed, Dropped, Plan to Play, Regularly Playing, Never Played.
+	* It will modify itself depending on what you do, but can also be modified manually.
 
-	- Game State :
-		- Each game now has a state that describes how it is used.
-		- Possible values : Completed, Dropped, Plan to Play, Regularly Playing, Never Played.
-		- It will modify itself depending on what you do, but can also be modified manually.
-
-	- External Softwares : 
-		You can now run external softwares with any game or platform you want !
+* External Softwares : 
+	* You can now run external softwares with any game or platform you want !
 		
-## Several fixes : 
-
-	- Fixed CEMU not loading.
-	- Fixed specific UI issues.
-	- Fixed time played on game displayed without "s" when it's at 1.
-	- Fixed game description being editable.
-	- Added possibility to grab All platforms or No platform in add dialogs.
-	- Fixed system tray not disappearing when force closed.
-	- Several minor fixes.
+### Several fixes : 
+* Fixed CEMU not loading.
+* Fixed specific UI issues.
+* Fixed time played on game displayed without "s" when it's at 1.
+* Fixed game description being editable.
+* Added possibility to grab All platforms or No platform in add dialogs.
+* Fixed system tray not disappearing when force closed.
+* Several minor fixes.
 
 [Download this version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.7.zip)
 
