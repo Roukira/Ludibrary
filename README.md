@@ -12,7 +12,7 @@ It's been a month since the last update, and I'm bringing a lot of stuff ! This 
 
 General Changes :
 
-	- Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
+	- Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child \n \t\tprocesses, which was an issue before for games with launchers which would stop the timer.
 	
 	- Improved UI :
 		- Introduced a status bar on bottom, which will only be visible when loading a game for now.
