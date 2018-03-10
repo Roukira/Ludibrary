@@ -8,7 +8,8 @@ ________________________________________________________________________________
 
 Hello !
 
-It's been a month since the last update, and I'm bringing a lot of stuff ! This update contains some stuff I also worked on before but wasn't ready. 
+It's been a month since the last update, and I'm bringing a lot of stuff ! This update contains some stuff I also worked on before but wasn't ready.
+
 General Changes :
 
 	- Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child 			processes, which was an issue before for games with launchers which would stop the timer.
