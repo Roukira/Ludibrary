@@ -27,7 +27,7 @@ New features :
 
 	- Game State :
 		- Each game now has a state that describes how it is used.
-		- Possible values : Completed, Dropped, Plan to Play, Regularly Playing, Never Played. \|/
+		- Possible values : Completed, Dropped, Plan to Play, Regularly Playing, Never Played.
 		- It will modify itself depending on what you do, but can also be modified manually.
 
 	- External Softwares : 
