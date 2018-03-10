@@ -10,16 +10,14 @@ Hello !
 
 It's been a month since the last update, and I'm bringing a lot of stuff ! This update contains some stuff I also worked on before but wasn't ready.
 
-General Changes :
+## General Changes :
+	* Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
+	* Improved UI :
+		* Introduced a status bar on bottom, which will only be visible when loading a game for now.
+		* New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted on settings.
+		* Replaced the ugly side info by a blue I button which when hovered shows game info inside the window without moving games.
 
-	. Improved Game Timer : Behavior is now different for games using multiple child processes. It will now detect child of child processes, which was an issue before for games with launchers which would stop the timer.
-	
-	. Improved UI :
-		- Introduced a status bar on bottom, which will only be visible when loading a game for now.
-		- New design for games : you can now hover over games and get the buttons there instead of the old one. Can be reverted on settings.
-		- Replaced the ugly side info by a blue I button which when hovered shows game info inside the window without moving games.
-
-New features : 
+## New features : 
 
 	- User Stats System :
 		- Created a tab that shows the user stats in real time.
@@ -33,7 +31,7 @@ New features :
 	- External Softwares : 
 		You can now run external softwares with any game or platform you want !
 		
-Several fixes : 
+## Several fixes : 
 
 	- Fixed CEMU not loading.
 	- Fixed specific UI issues.
