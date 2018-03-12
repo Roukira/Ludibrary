@@ -2,6 +2,8 @@ Want to give it a try ?
 Download :
 - Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.7.zip)
 
+Tutorial : [Here.](https://github.com/Roukira/Ludibrary/blob/master/tutorial/guide.md)
+
 ________________________________________________________________________________________________________________________________________
 
 # Ludibrary v0.7 : User Stats, Improved Game Timer, Game State, Improved Game Design, External Software support
