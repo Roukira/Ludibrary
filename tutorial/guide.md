@@ -1,7 +1,7 @@
 Hello there !
 Want to know how to use the software ? Here is a quick and simple guide to get started.
 
-![Main Menu listing all games](Ludibrary/tutorial/image3.PNG)
+![Main Menu listing all games](https://github.com/Roukira/Ludibrary/blob/master/tutorial/image3.PNG?raw=true)
 
 First of all, start by adding your games, it will add automatically the platform if you don't have any game for it yet.
 This will allow you to use emulators for the platform and even external softwares to run with the games you want to.
@@ -13,7 +13,7 @@ This will allow you to use emulators for the platform and even external software
 If it is a steam game, I recommend using the add detected PC games feature by pressing the + green button on screen.
 Be warned though, this feature isn't perfect yet and might not detect your steam games.
 Else, click on Search tab and then write on the search bar the game you desire to add to your library.
-Press the ![Add Button](Ludibrary/tutorial/image.png) and it will be added to your library.
+Press the ![Add Button](https://github.com/Roukira/Ludibrary/blob/master/tutorial/image.png?raw=true) and it will be added to your library.
 
 After that you setup the game path by hovering over the game and pressing the edit button (a black button).
 After that, you can run the game if it's on PC.
