@@ -2,7 +2,7 @@ Want to give it a try ?
 Download :
 - Windows : [Download latest version](https://github.com/Roukira/Ludibrary/raw/master/Ludibrary%20v0.7.zip)
 
-Tutorial : [Here.](https://github.com/Roukira/Ludibrary/blob/master/tutorial/guide.md)
+Tutorial : [Here](https://github.com/Roukira/Ludibrary/blob/master/tutorial/guide.md)
 
 ________________________________________________________________________________________________________________________________________
 
