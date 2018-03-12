@@ -8,7 +8,7 @@ This will allow you to use emulators for the platform and even external software
 
 # Add a game to the library.
 
-![Search Game](Ludibrary/tutorial/image2.PNG)
+![Search Game](https://github.com/Roukira/Ludibrary/blob/master/tutorial/image2.PNG?raw=true)
 
 If it is a steam game, I recommend using the add detected PC games feature by pressing the + green button on screen.
 Be warned though, this feature isn't perfect yet and might not detect your steam games.
