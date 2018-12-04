@@ -1,4 +1,5 @@
 Ludibrary is a (mostly hobby) windows software project. It will allow users to list their games (on any platform) and even launch them if they set them up to. It is using thegamesdb.net database API to search for games and corresponding informations and image. Please keep in mind this is still an early version of what I am aiming for.
+The project is developped on C++ using Qt 5.
 
 Want to give it a try ?
 Download :
