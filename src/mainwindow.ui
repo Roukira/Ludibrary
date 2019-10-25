@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Ludibrary</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/Images/appIcon</normaloff>:/Images/appIcon</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow
+{
+	background-color: rgb(64, 64, 64);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="mouseTracking">
+    <bool>false</bool>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_6">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item row="0" column="0" colspan="3">
+     <widget class="QWidget" name="widget" native="true">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>80</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">.QWidget
+{
+background-image: url(:/Images/backgroundtop);
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>6</number>
+       </property>
+       <property name="bottomMargin">
+        <number>6</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_3">
+         <property name="horizontalSpacing">
+          <number>6</number>
+         </property>
+         <property name="verticalSpacing">
+          <number>10</number>
+         </property>
+         <item row="0" column="11">
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>300</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="10">
+          <widget class="QLineEdit" name="lineEditSearch">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>20</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLineEdit
+{
+	background-color: rgba(0, 0, 0, 50);
+	color: rgb(255, 255, 255);
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: rgb(202, 202, 202);
+}</string>
+           </property>
+           <property name="inputMask">
+            <string/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="placeholderText">
+            <string>Search...</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="9">
+          <widget class="QComboBox" name="comboBoxSort">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="focusPolicy">
+            <enum>Qt::NoFocus</enum>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QComboBox
+{
+	color : rgb(227, 227, 227);
+	background-color : transparent;
+}
+
+QComboBox:hover
+{
+	color : rgb(0, 173, 173);
+	background-color : rgba(0, 173, 173,25);
+}</string>
+           </property>
+           <item>
+            <property name="text">
+             <string>Alphabetical</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Release Date</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>Last Played</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="8">
+          <widget class="QLabel" name="labelSort">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QLabel
+{
+	color : rgb(227, 227, 227);
+	background-color : transparent;
+}</string>
+           </property>
+           <property name="text">
+            <string>Sort By :</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="13">
+          <widget class="QPushButton" name="buttonSettings">
+           <property name="minimumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonSettingsNormal);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonSettingsPressed);
+}
+
+QPushButton:hover:!pressed
+{
+   background-image: url(:/Images/buttonSettingsHover);
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="7">
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>60</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="0">
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>70</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="1" colspan="3">
+          <spacer name="horizontalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Maximum</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>140</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="12">
+          <widget class="QPushButton" name="buttonHelp">
+           <property name="minimumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonHelpNormal);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonHelpPressed);
+}
+
+QPushButton:hover:!pressed
+{
+   background-image: url(:/Images/buttonHelpHover);
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="5">
+          <widget class="QPushButton" name="buttonAdd">
+           <property name="minimumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonAdd);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonAddPressed);
+}
+
+QPushButton:hover:!pressed
+{
+   background-image: url(:/Images/buttonAddHover);
+}
+
+
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <spacer name="horizontalSpacer_6">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>70</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item row="0" column="6">
+          <widget class="QPushButton" name="buttonDeleteSelection">
+           <property name="minimumSize">
+            <size>
+             <width>32</width>
+             <height>32</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonDelete);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:hover:!pressed
+{
+  background-image: url(:/Images/buttonDeleteHover);
+}
+
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonDeletePressed);
+}
+
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="15">
+          <widget class="QPushButton" name="buttonExit">
+           <property name="minimumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonExitNormal);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonExitPressed);
+}
+
+QPushButton:hover:!pressed
+{
+   background-image: url(:/Images/buttonExitHover);
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="11">
+          <widget class="QListWidget" name="listWidgetAllTags">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QScrollBar:vertical{
+border: 1px solid #999999;
+background: transparent;
+width:6px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}
+
+QListWidget
+{
+	background-color : rgba(154, 154, 154, 100);
+	border-style : solid;
+	border-width : 0px;
+	color: rgb(255, 255, 255);
+}
+
+QListWidget:item
+{
+	background-color : rgba(188, 188, 188, 50);
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 10px;
+}
+
+QListWidget::item:selected 
+{
+	background-color: rgb(255, 0, 0);
+}</string>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Sunken</enum>
+           </property>
+           <property name="editTriggers">
+            <set>QAbstractItemView::EditKeyPressed|QAbstractItemView::SelectedClicked</set>
+           </property>
+           <property name="selectionMode">
+            <enum>QAbstractItemView::SingleSelection</enum>
+           </property>
+           <property name="movement">
+            <enum>QListView::Static</enum>
+           </property>
+           <property name="flow">
+            <enum>QListView::LeftToRight</enum>
+           </property>
+           <property name="isWrapping" stdset="0">
+            <bool>true</bool>
+           </property>
+           <property name="resizeMode">
+            <enum>QListView::Adjust</enum>
+           </property>
+           <property name="layoutMode">
+            <enum>QListView::Batched</enum>
+           </property>
+           <property name="spacing">
+            <number>3</number>
+           </property>
+           <property name="viewMode">
+            <enum>QListView::ListMode</enum>
+           </property>
+           <property name="selectionRectVisible">
+            <bool>true</bool>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="14">
+          <widget class="QPushButton" name="buttonHide">
+           <property name="minimumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16</width>
+             <height>16</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton
+{
+    background-color: transparent;
+	background-image: url(:/Images/buttonHideNormal);
+    background-repeat: none;    
+    border: none;
+}
+
+QPushButton:pressed
+{
+   background-image: url(:/Images/buttonHidePressed);
+}
+
+QPushButton:hover:!pressed
+{
+   background-image: url(:/Images/buttonHideHover);
+}
+</string>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <spacer name="horizontalSpacer_7">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Maximum</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>5</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="1">
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">.QWidget
+{
+background-image: url(:/Images/new_background1);
+background-color: black;
+}</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <property name="horizontalSpacing">
+        <number>0</number>
+       </property>
+       <property name="verticalSpacing">
+        <number>1</number>
+       </property>
+       <item row="0" column="0">
+        <layout class="QGridLayout" name="gridLayout_4">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item row="0" column="0">
+          <widget class="QTabWidget" name="tabWidget">
+           <property name="font">
+            <font>
+             <family>Arial</family>
+             <weight>75</weight>
+             <bold>true</bold>
+            </font>
+           </property>
+           <property name="mouseTracking">
+            <bool>false</bool>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QTabWidget
+{
+	border-style : solid;
+	border-width : 0px;
+}
+QTabWidget::pane 
+{
+	border-style : solid;
+	border-width : 0px;
+}
+QTabBar::tab 
+{
+    background-color : rgba(85, 85, 85, 200);
+	border-style : solid;
+	border-width : 2px;
+	border-radius: 2px;
+}
+QTabBar::tab:selected
+{
+	background-color: rgba(50, 50, 50, 250);
+}</string>
+           </property>
+           <property name="currentIndex">
+            <number>0</number>
+           </property>
+           <widget class="QWidget" name="tabAllGames">
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <attribute name="title">
+             <string>All Games</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="ListWidgetMod" name="listWidgetAllGames">
+               <property name="mouseTracking">
+                <bool>false</bool>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QListWidget
+{
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+               </property>
+               <property name="verticalScrollBarPolicy">
+                <enum>Qt::ScrollBarAsNeeded</enum>
+               </property>
+               <property name="horizontalScrollBarPolicy">
+                <enum>Qt::ScrollBarAsNeeded</enum>
+               </property>
+               <property name="editTriggers">
+                <set>QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+               </property>
+               <property name="showDropIndicator" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="dragDropMode">
+                <enum>QAbstractItemView::NoDragDrop</enum>
+               </property>
+               <property name="movement">
+                <enum>QListView::Static</enum>
+               </property>
+               <property name="flow">
+                <enum>QListView::LeftToRight</enum>
+               </property>
+               <property name="isWrapping" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="spacing">
+                <number>5</number>
+               </property>
+               <property name="viewMode">
+                <enum>QListView::ListMode</enum>
+               </property>
+               <property name="uniformItemSizes">
+                <bool>false</bool>
+               </property>
+               <property name="wordWrap">
+                <bool>true</bool>
+               </property>
+               <property name="selectionRectVisible">
+                <bool>false</bool>
+               </property>
+               <property name="sortingEnabled">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabSearchGames">
+            <attribute name="title">
+             <string>Search Games</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_7">
+             <property name="leftMargin">
+              <number>2</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QLabel" name="labelGif">
+               <property name="styleSheet">
+                <string notr="true">QLabel
+{
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QListWidget" name="listWidgetSearchGames">
+               <property name="styleSheet">
+                <string notr="true">QListWidget
+{
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+               </property>
+               <property name="showDropIndicator" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="dragDropMode">
+                <enum>QAbstractItemView::NoDragDrop</enum>
+               </property>
+               <property name="movement">
+                <enum>QListView::Static</enum>
+               </property>
+               <property name="flow">
+                <enum>QListView::TopToBottom</enum>
+               </property>
+               <property name="isWrapping" stdset="0">
+                <bool>false</bool>
+               </property>
+               <property name="resizeMode">
+                <enum>QListView::Adjust</enum>
+               </property>
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="viewMode">
+                <enum>QListView::ListMode</enum>
+               </property>
+               <property name="uniformItemSizes">
+                <bool>true</bool>
+               </property>
+               <property name="selectionRectVisible">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="NoResults">
+               <property name="font">
+                <font>
+                 <family>Arial</family>
+                 <pointsize>10</pointsize>
+                 <weight>75</weight>
+                 <bold>true</bold>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QLabel
+{
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}</string>
+               </property>
+               <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;No results found.&lt;/p&gt;&lt;p&gt;Make sure your game isn't named differently.&lt;/p&gt;&lt;p&gt;You can add it manually by pressing &lt;img src=&quot;:/Images/buttonAdd&quot;/&gt; button and selecting &amp;quot;Add Game&amp;quot;. (Not working yet!).&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Want to add your game on the database and improve it?&lt;/p&gt;&lt;p&gt;1. Register on the website &lt;a href=&quot;http://thegamesdb.net/register/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;here&lt;/span&gt;&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;2. fill &lt;a href=&quot;http://thegamesdb.net/addgame/?passTitle=&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;this form&lt;/span&gt;&lt;/a&gt; and the game will be added.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="wordWrap">
+                <bool>false</bool>
+               </property>
+               <property name="openExternalLinks">
+                <bool>true</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabEmulators">
+            <attribute name="title">
+             <string>Emulators</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_8">
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="0" column="0">
+              <widget class="QListWidget" name="listWidgetEmulators">
+               <property name="styleSheet">
+                <string notr="true">QListWidget
+{
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+               </property>
+               <property name="showDropIndicator" stdset="0">
+                <bool>true</bool>
+               </property>
+               <property name="dragDropMode">
+                <enum>QAbstractItemView::NoDragDrop</enum>
+               </property>
+               <property name="movement">
+                <enum>QListView::Static</enum>
+               </property>
+               <property name="flow">
+                <enum>QListView::TopToBottom</enum>
+               </property>
+               <property name="isWrapping" stdset="0">
+                <bool>false</bool>
+               </property>
+               <property name="resizeMode">
+                <enum>QListView::Adjust</enum>
+               </property>
+               <property name="spacing">
+                <number>2</number>
+               </property>
+               <property name="viewMode">
+                <enum>QListView::ListMode</enum>
+               </property>
+               <property name="uniformItemSizes">
+                <bool>true</bool>
+               </property>
+               <property name="selectionRectVisible">
+                <bool>false</bool>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabExternalSoftwares">
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <attribute name="title">
+             <string>External Softwares</string>
+            </attribute>
+            <layout class="QVBoxLayout" name="verticalLayout_7">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>0</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <item>
+              <widget class="QScrollArea" name="ExtSoftScroll">
+               <property name="styleSheet">
+                <string notr="true">QWidget {
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <widget class="QWidget" name="ExtSoftScrolling">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>1578</width>
+                  <height>875</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_6">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="SupportedSoftware" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget {
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_8">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="sizeConstraint">
+                     <enum>QLayout::SetMinimumSize</enum>
+                    </property>
+                    <property name="leftMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>0</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>0</number>
+                    </property>
+                   </layout>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+           <widget class="QWidget" name="tabUserStats">
+            <attribute name="title">
+             <string>User Stats</string>
+            </attribute>
+            <layout class="QGridLayout" name="gridLayout_9">
+             <property name="leftMargin">
+              <number>2</number>
+             </property>
+             <property name="topMargin">
+              <number>0</number>
+             </property>
+             <property name="rightMargin">
+              <number>0</number>
+             </property>
+             <property name="bottomMargin">
+              <number>0</number>
+             </property>
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <item row="5" column="0">
+              <widget class="QScrollArea" name="scrollArea">
+               <property name="styleSheet">
+                <string notr="true">QWidget {
+	background : transparent;
+	border-style : solid;
+	border-width : 0px;
+}
+
+QScrollBar:vertical{
+border: 1px solid #999999;
+background:transparent;
+width:10px;
+margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130), stop:1 rgb(32, 47, 130));
+min-height: 0px;
+}
+
+QScrollBar::add-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,stop: 0 rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0px;
+subcontrol-position: bottom;
+subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+stop: 0  rgb(32, 47, 130), stop: 0.5 rgb(32, 47, 130),  stop:1 rgb(32, 47, 130));
+height: 0 px;
+subcontrol-position: top;
+subcontrol-origin: margin;
+}</string>
+               </property>
+               <property name="widgetResizable">
+                <bool>true</bool>
+               </property>
+               <widget class="QWidget" name="ScrollWidget">
+                <property name="geometry">
+                 <rect>
+                  <x>0</x>
+                  <y>0</y>
+                  <width>1576</width>
+                  <height>875</height>
+                 </rect>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout">
+                 <property name="spacing">
+                  <number>20</number>
+                 </property>
+                 <property name="leftMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>5</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>5</number>
+                 </property>
+                 <item>
+                  <widget class="QWidget" name="GeneralStats" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget {
+		background-image : url(:/Images/new_background2);
+		color: rgb(255, 255, 255);
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 7px;
+		border-color: rgb(43, 43, 43);
+}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>5</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="GeneralStatsLabel">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                        <underline>true</underline>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background:  transparent;
+		color : black;
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 12px;
+		border-color: rgb(33, 33, 33);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>General Stats</string>
+                      </property>
+                      <property name="scaledContents">
+                       <bool>false</bool>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="GameCounter">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>11</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background: transparent;
+		color: black;
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 5px;
+		border-color: rgb(202, 202, 202);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>
+0 games owned.</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="PlatformCounter">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>11</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 5px;
+		border-color: rgb(202, 202, 202);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>0 platforms used.</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="EmulatorCounter">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>11</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 5px;
+		border-color: rgb(202, 202, 202);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>0 emulators installed.</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="ExtSoftCounter">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>11</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 5px;
+		border-color: rgb(202, 202, 202);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>0 external softwares installed.</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="TimeSpent">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>11</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 0px;
+		border-radius: 5px;
+		border-color: rgb(202, 202, 202);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>0 played.</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="PlatformStats" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget {
+		background-image : url(:/Images/new_background2);
+		color: rgb(255, 255, 255);
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 7px;
+		border-color: rgb(43, 43, 43);
+}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>5</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="PlatformStatsLabel">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                        <underline>true</underline>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background:  transparent;
+		color : black;
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 12px;
+		border-color: rgb(33, 33, 33);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Platforms Stats</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="EmulatorStats" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget {
+		background-image : url(:/Images/new_background2);
+		color: rgb(255, 255, 255);
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 7px;
+		border-color: rgb(43, 43, 43);
+}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>5</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="EmulatorStatsLabel">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                        <underline>true</underline>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 12px;
+		border-color: rgb(33, 33, 33);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>Emulators Stats</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QWidget" name="ExtSoftStats" native="true">
+                   <property name="styleSheet">
+                    <string notr="true">QWidget {
+		background-image : url(:/Images/new_background2);
+		color: rgb(255, 255, 255);
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 7px;
+		border-color: rgb(43, 43, 43);
+}</string>
+                   </property>
+                   <layout class="QVBoxLayout" name="verticalLayout_5">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="topMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="rightMargin">
+                     <number>5</number>
+                    </property>
+                    <property name="bottomMargin">
+                     <number>5</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="ExtSoftStatsLabel">
+                      <property name="font">
+                       <font>
+                        <family>Arial</family>
+                        <pointsize>18</pointsize>
+                        <weight>75</weight>
+                        <bold>true</bold>
+                        <underline>true</underline>
+                       </font>
+                      </property>
+                      <property name="styleSheet">
+                       <string notr="true">QLabel {
+		background : transparent;
+		color: black;
+		border-style: solid;
+		border-width: 3px;
+		border-radius: 12px;
+		border-color: rgb(33, 33, 33);
+}</string>
+                      </property>
+                      <property name="text">
+                       <string>External Softwares Stats</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
+                 </item>
+                </layout>
+               </widget>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Maximum</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>15</width>
+        <height>5</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="2" column="1">
+     <spacer name="verticalSpacer">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <property name="sizeType">
+       <enum>QSizePolicy::Maximum</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>5</width>
+        <height>5</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+   <zorder>widget_2</zorder>
+   <zorder>widget</zorder>
+   <zorder>horizontalSpacer_5</zorder>
+   <zorder>verticalSpacer</zorder>
+   <zorder>horizontalSpacer_7</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Maximum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>16777215</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <customwidgets>
+  <customwidget>
+   <class>ListWidgetMod</class>
+   <extends>QListWidget</extends>
+   <header>listwidgetmod.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

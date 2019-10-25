@@ -1,0 +1,64 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file alias="deleteNormal">../../../Pictures/deletebutton2.png</file>
+        <file alias="deleteHover">../../../Pictures/deletebutton3.png</file>
+        <file alias="deletePressed">../../../Pictures/deletebutton5.png</file>
+        <file alias="editPressed">../../../Pictures/editbutton3.png</file>
+        <file alias="editHover">../../../Pictures/editbutton2.png</file>
+        <file alias="editNormal">../../../Pictures/editbutton.png</file>
+        <file alias="favoriteHoverChecked">../../../Pictures/favoritebutton4.png</file>
+        <file alias="favoriteNormal">../../../Pictures/favoritebutton3.png</file>
+        <file alias="favoriteHoverUnchecked">../../../Pictures/favoritebutton2.png</file>
+        <file alias="favoriteChecked">../../../Pictures/favoritebutton.png</file>
+        <file alias="playHover">../../../Pictures/playbutton2.png</file>
+        <file alias="playNormal">../../../Pictures/playbutton.png</file>
+        <file alias="playPressed">../../../Pictures/playbutton3.png</file>
+        <file alias="emulatorImageNotFound">../../../Pictures/noimagelabel2.png</file>
+        <file alias="gameNotInstalled">../../../Pictures/installedimage2.png</file>
+        <file alias="gameInstalled">../../../Pictures/installedimage.png</file>
+        <file alias="gameImageNotFound">../../../Pictures/noimagelabel3.png</file>
+        <file alias="appIcon">../../../Pictures/controllericon.png</file>
+        <file alias="buttonDelete">../../../Pictures/buttonDelete.png</file>
+        <file alias="buttonAdd">../../../Pictures/buttonAdd.png</file>
+        <file alias="buttonAddPressed">../../../Pictures/buttonAdd3.png</file>
+        <file alias="buttonAddHover">../../../Pictures/buttonAdd2.png</file>
+        <file alias="buttonDeletePressed">../../../Pictures/buttonDelete3.png</file>
+        <file alias="buttonDeleteHover">../../../Pictures/buttonDelete2.png</file>
+        <file alias="background1">../../../Pictures/background1.png</file>
+        <file alias="background2">../../../Pictures/background2.png</file>
+        <file alias="buttonExitNormal">../../../Pictures/exitbutton1.png</file>
+        <file alias="buttonHidePressed">../../../Pictures/hidebutton3.png</file>
+        <file alias="buttonHideHover">../../../Pictures/hidebutton2.png</file>
+        <file alias="buttonHideNormal">../../../Pictures/hidebutton.png</file>
+        <file alias="buttonExitPressed">../../../Pictures/exitbutton3.png</file>
+        <file alias="buttonExitHover">../../../Pictures/exitbutton2.png</file>
+        <file alias="buttonSettingsPressed">../../../Pictures/settings3.png</file>
+        <file alias="buttonSettingsHover">../../../Pictures/settings2.png</file>
+        <file alias="buttonSettingsNormal">../../../Pictures/settings1.png</file>
+        <file alias="buttonMenuPressed">../../../Pictures/menu3.png</file>
+        <file alias="buttonMenuHover">../../../Pictures/menu2.png</file>
+        <file alias="buttonMenuNormal">../../../Pictures/menu1.png</file>
+        <file alias="buttonEmulatorOnHover">../../../Pictures/emulatoron2.png</file>
+        <file alias="buttonEmulatorOnNormal">../../../Pictures/emulatoron1.png</file>
+        <file alias="backgroundmain">../../../Pictures/backgroundmain.png</file>
+        <file alias="backgroundtop">../../../Pictures/backgroundtop.png</file>
+        <file alias="backgroundmain2">../../../Pictures/backgroundmain2.png</file>
+        <file alias="backgroundmain3">../../../Pictures/backgroundmain3.png</file>
+        <file alias="backgroundmain4">../../../Pictures/backgroundmain4.png</file>
+        <file alias="buttonHelpPressed">../../../Pictures/help3.png</file>
+        <file alias="buttonHelpHover">../../../Pictures/help2.png</file>
+        <file alias="buttonHelpNormal">../../../Pictures/help1.png</file>
+        <file alias="backgroundmain5">../../../Pictures/backgroundmain5.png</file>
+        <file alias="windowslogo">../../../Pictures/windowsicon2.png</file>
+        <file alias="new_background1">../../../Pictures/new_background2.png</file>
+        <file alias="new_background2">../../../Pictures/new_background3.png</file>
+        <file>LudibraryRessources/playbutton2hover.png</file>
+        <file>LudibraryRessources/playbutton2normal.png</file>
+        <file>LudibraryRessources/playbutton2normal2.png</file>
+        <file>LudibraryRessources/playbutton2pressed.png</file>
+        <file>LudibraryRessources/steamlogo.png</file>
+        <file alias="gifSearching">LudibraryRessources/gif2.gif</file>
+        <file alias="buttonInfo">LudibraryRessources/buttonInfo.png</file>
+        <file alias="KonamiLoading">LudibraryRessources/controllerLoading.gif</file>
+    </qresource>
+</RCC>
